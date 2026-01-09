@@ -1,0 +1,14 @@
+---
+title: "Comparison of lidar semantic segmentation performance on the structured SemanticKITTI and off‑road RELLIS‑3D datasets"
+collection: publications
+category: manuscripts
+permalink: /publication/2024-08-20-SemanticKITTI-and-RELLIS-3D-Performance
+excerpt: 'Existing lidar-based semantic segmentation algorithms and datasets focus on autonomous vehicles operating in urban environments. This has greatly improved the safety and reliability of these autonomous vehicles in predictable scenery. A new dataset provides lidar data focusing on off-road environments as seen by autonomous ground vehicles, ushering in a new era of off-road exploration capabilities. To the best of our knowledge, no new algorithms have been developed specifically for this unstructured environment. To gain an understanding of how existing algorithms perform in an off-road environment, we assess the baseline performance of four algorithms, KPConv, SalsaNext, Cylinder3D, and SphereFormer, on a commonly used on-road dataset, SemanticKITTI. We then compare the results with an off-road dataset, RELLIS-3D. We discuss the degradation of each algorithm on the off-road dataset and investigate potential causes such as class imbalance, inconsistencies in the labeled data, and the inherent difficulty of segmenting off-road environments. We present the strengths and weaknesses of each algorithm’s segmentation abilities and provide a comparison of the runtime of each algorithm for real-time capabilities. This is crucial for identifying what network architecture features are potentially the most beneficial for unstructured scenes. A robust, open-source software implementation via docker containers and bash scripts provides simple, repeatable execution of all algorithm training and evaluations. All code is publicly available at https://github.com/UA-Lidar-Segmentation-Research.'
+date: 2024-12-24
+venue: 'International Journal of Intelligent Robotics and Applications'
+#slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
+paperurl: 'https://academicpages.github.io/files/Comparison of lidar semantic segmentation performance on the structured SemanticKITTI and off‑road RELLIS‑3D datasets.pdf'
+bibtexurl: 'https://academicpages.github.io/files/RELLIS-3DPerformance.bib'
+citation: 'McVicker, M., Ervin, L., Yang, Y. et al. Comparison of lidar semantic segmentation performance on the structured SemanticKITTI and off-road RELLIS-3D datasets. Int J Intell Robot Appl 8, 1085–1101 (2024). https://doi.org/10.1007/s41315-024-00376-5.'
+---
+The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
