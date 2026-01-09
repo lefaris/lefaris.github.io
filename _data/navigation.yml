@@ -11,8 +11,8 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Other Projects"
-    url: /portfolio/
+#  - title: "Other Projects"
+#    url: /portfolio/
 
   - title: "Awards"
     url: /awards/
