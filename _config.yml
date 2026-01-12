@@ -24,11 +24,11 @@ repository               : "lefaris.github.io"
 author:
   # Biographic information
   avatar           : "Lauren_profile.jpg"
-  name             : "About me"
+  name             : "Lauren Ervin, Ph.D."
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Florida International University"
+  bio              : "Roboticist | ECE Visiting Assistant Professor @ FIU"
+  location         : #"Earth"
+  employer         : #"Florida International University"
   uri              : # URL
   email            : "laurenefervin@gmail.com"
 

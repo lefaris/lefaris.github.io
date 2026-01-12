@@ -1,15 +1,16 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I'm currently a Visiting Assistant Professor in the Electrical and Computer Engineering Department at Florida International University in Miami, Florida.  Since [joining the department](https://ece.fiu.edu/people/faculty/profiles/lauren-ervin/index1.html) in August 2025, I have been knee-deep in research, proposal writing, crafting new robotics undergraduate and graduate courses, and mentoring students.  My current research interests lie at the intersection of robotics and deep learning.  Ask me about how fun proposal writing is!
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+Before FIU, I received my Ph.D. from the Electrical and Computer Engineering Department at the University of Alabama in August 2025.  I worked in the [Agile Robotics Lab](https://sites.ua.edu/arl/) where I focused on modeling/simulating/testing tensegrity robots (mobile + manipulator), and the [Embedded and Robotic Systems Lab](https://ece.eng.ua.edu/laboratories/ersyl-embedded-and-robotic-systems-laboratory/) where I co-developed an open-source, multimodal dataset targeting vehicles and performed semantic segmentation tasks on the edge.  I am grateful for receiving several awards during my Ph.D., including the Best Paper Award at the IEEE ICRA 2025 Soft Robotics for Space Applications Workshop (2025), ECOB Electrical Engineering Graduate Student of the Year (2024), and three rounds of the NASA ASGC Fellowship (2022, 2023, and 2024), among others.  Before that, I received my Bachelor's in Electrical Engineering with a Computer Option and Math Minor and Master's in Electrical Engineering both from UA in May 2020 and 2025, respectively.
+
 
 A data-driven personal website
 ======
