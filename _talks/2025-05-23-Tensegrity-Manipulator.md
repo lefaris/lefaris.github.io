@@ -11,6 +11,6 @@ location: "Atlanta, GA, USA"
 
 ![IEEE ICRA 2025 Workshop Posters](images/ICRA_workshop_posters.jpg "IEEE ICRA 2025 Workshop Posters")
 
-This is a description of your talk, which is a markdown file that can be all markdown-ified like any other post. Yay markdown!
+This is a description of your talk, which is a markdown file that can be all markdownified like any other post. Yay markdown!
 
 
