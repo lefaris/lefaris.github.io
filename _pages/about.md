@@ -14,7 +14,7 @@ current research interests lie at the intersection of robotics and deep learning
 
 Before FIU, I received my Ph.D. from the Electrical and Computer Engineering Department at the University of Alabama in August 2025.  I worked in the [Agile Robotics Lab](https://sites.ua.edu/arl/) where I focused on modeling/simulating/testing tensegrity robots (mobile + manipulator), and the [Embedded and Robotic Systems Lab](https://ece.eng.ua.edu/laboratories/ersyl-embedded-and-robotic-systems-laboratory/) where I co-developed an open-source, multimodal dataset targeting vehicles and performed semantic segmentation tasks on the edge.  I am grateful for receiving several awards during my Ph.D., including the Best Paper Award at the IEEE ICRA 2025 Soft Robotics for Space Applications Workshop (2025), ECOB Electrical Engineering Graduate Student of the Year (2024), and three rounds of the NASA ASGC Fellowship (2022, 2023, and 2024), among others.  Before that, I received my Bachelor's in Electrical Engineering with a Computer Option and Math Minor and Master's in Electrical Engineering both from UA in May 2020 and 2025, respectively.
 
-## Recent Publications
+# Recent Publications
 <style>
   table, th, td {
     border: 1px solid black;
@@ -25,7 +25,7 @@ Before FIU, I received my Ph.D. from the Electrical and Computer Engineering Dep
 <div class='paper-box'><div 
 class='paper-box-image'><div><div 
 class="badge">IEEE RA-L and 
-IEEE ICRA 2025</div><img src='../images/TeXploR_ICRA_graphical_abstract.png' alt="sym" width="100%"></div></div>
+IEEE ICRA 2025</div><img src='../images/TeXploR_ICRA_graphical_abstract.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Geometric Static Modeling Framework for Piecewise-Continuous Curved-Link 
@@ -42,7 +42,8 @@ Multi Point-of-Contact Tensegrity Robots](https://ieeexplore.ieee.org/abstract/d
 
 <div class='paper-box'><div 
 class='paper-box-image'><div><div 
-class="badge">IEEE ICRA 2025</div><img src='../images/ICRA 2025 Microspines Graphical Abstract.png' alt="sym" width="100%"></div></div>
+class="badge">IEEE ICRA 2025</div><img src='../images/ICRA 2025 Microspines Graphical Abstract.png' alt="sym" 
+width="70%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Improving Grip Stability Using Passive Compliant Microspine Arrays for Soft Robots in Unstructured Terrain](https://ieeexplore.ieee.org/document/11128855) 
