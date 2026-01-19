@@ -7,7 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-I'm currently a Visiting Assistant Professor in the Electrical and Computer Engineering Department at Florida International University in Miami, Florida.  Since [joining the department](https://ece.fiu.edu/people/faculty/profiles/lauren-ervin/index1.html) in August 2025, I have been knee-deep in research, proposal writing, crafting new robotics undergraduate and graduate courses, and mentoring students.  My current research interests lie at the intersection of robotics and deep learning.  Ask me about how fun proposal writing is!
+I'm currently a Visiting Assistant Professor in the Electrical and Computer Engineering Department at Florida 
+International University in Miami, Florida.  Since [joining the department](https://ece.fiu.edu/people/faculty/profiles/lauren-ervin/index1.html) in August 2025, I have been knee-deep in research, proposal 
+writing, crafting new robotics and computer vision undergraduate/graduate courses, and mentoring students.  My 
+current research interests lie at the intersection of robotics and deep learning.  Ask me about how fun proposal writing is!
 
 Before FIU, I received my Ph.D. from the Electrical and Computer Engineering Department at the University of Alabama in August 2025.  I worked in the [Agile Robotics Lab](https://sites.ua.edu/arl/) where I focused on modeling/simulating/testing tensegrity robots (mobile + manipulator), and the [Embedded and Robotic Systems Lab](https://ece.eng.ua.edu/laboratories/ersyl-embedded-and-robotic-systems-laboratory/) where I co-developed an open-source, multimodal dataset targeting vehicles and performed semantic segmentation tasks on the edge.  I am grateful for receiving several awards during my Ph.D., including the Best Paper Award at the IEEE ICRA 2025 Soft Robotics for Space Applications Workshop (2025), ECOB Electrical Engineering Graduate Student of the Year (2024), and three rounds of the NASA ASGC Fellowship (2022, 2023, and 2024), among others.  Before that, I received my Bachelor's in Electrical Engineering with a Computer Option and Math Minor and Master's in Electrical Engineering both from UA in May 2020 and 2025, respectively.
 
@@ -50,6 +53,24 @@ class="badge">IEEE ICRA 2025</div><img src='../images/ICRA 2025 Microspines Grap
 <span> <a href="https://github.com/lefaris/microspines">Code</a></span><br>
 </div>
 </div>
+
+
+<div class='paper-box'><div 
+class='paper-box-image'><div><div 
+class="badge">Sensors</div><img src='../images/semantic_graphical_abstract.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Evaluation of Semantic Segmentation Performance for a Multimodal Roadside Vehicle Detection System on the Edge](https://www.mdpi.com/1424-8220/25/2/370) 
+**Lauren Ervin<sup>✉</sup>**, Max Eastepp, Mason McVicker, Kenneth Ricks. *<b>Sensors</b>*, 2025, 25, 370, doi: 10.3390/s25020370.<br>
+<img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
+<span><a href="https://www.mdpi.com/1424-8220/25/2/370">Sensors</a></span><br>
+<img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
+<span> <a href="https://github.com/UA-Roadside-Semantic-Segmentation/Multimodal-Roadside-Detection">Code</a>, <a 
+href="https://doi.org/10.25452/figshare.plus.19311938.v1">Dataset</a></span><br>
+</div>
+</div>
+
+
 
 A data-driven personal website
 ======
