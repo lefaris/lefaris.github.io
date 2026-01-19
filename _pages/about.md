@@ -71,6 +71,39 @@ href="https://doi.org/10.25452/figshare.plus.19311938.v1">Dataset</a></span><br>
 </div>
 
 
+<div class='paper-box'><div 
+class='paper-box-image'><div><div 
+class="badge">IJIRA</div><img src='../images/rellis_graphical.jpg' alt="sym" 
+width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Comparison of lidar semantic segmentation performance on the structured SemanticKITTI and off-road RELLIS-3D datasets](https://link.springer.com/article/10.1007/s41315-024-00376-5) 
+Mason McVicker<sup>✉</sup>, **Lauren Ervin**, Yongzhi Yang, Kenneth Ricks. *<b>International Journal of Intelligent 
+Robotics and Applications</b>*, 8, 1085–1101 (2024), doi: 10.1007/s41315-024-00376-5.<br>
+<img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
+<span><a href="https://link.springer.com/article/10.1007/s41315-024-00376-5">IJIRA</a></span><br>
+<img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
+<span> <a href="https://github.com/UA-Lidar-Segmentation-Research">Code</a></span><br>
+</div>
+</div>
+
+
+<div class='paper-box'><div 
+class='paper-box-image'><div><div 
+class="badge">Data in Brief</div><img src='../images/dataset_graphical.jpg' alt="sym" 
+width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[UA_L-DoTT: University of Alabama’s large dataset of trains and trucks](https://www.sciencedirect.com/science/article/pii/S2352340922002840) 
+Max Eastepp<sup>✉</sup>, **Lauren Faris**, Kenneth Ricks. *<b>Data in Brief</b>*, 2022, 42, 108073, doi: 10.1016/j.dib.2022.108073.<br>
+<img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
+<span><a href="https://www.sciencedirect.com/science/article/pii/S2352340922002840">Data in Brief</a></span><br>
+<img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
+<span> <a href="https://doi.org/10.25452/figshare.plus.19311938.v1">Dataset</a></span><br>
+</div>
+</div>
+
+
 
 A data-driven personal website
 ======
