@@ -24,8 +24,7 @@ Before FIU, I received my Ph.D. from the Electrical and Computer Engineering Dep
 
 <div class='paper-box'><div 
 class='paper-box-image'><div><div 
-class="badge">IEEE RA-L and 
-IEEE ICRA 2025</div><img src='../images/TeXploR_ICRA_graphical_abstract.png' alt="sym" width="80%"></div></div>
+class="badge"> </div><img src='../images/TeXploR_ICRA_graphical_abstract.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Geometric Static Modeling Framework for Piecewise-Continuous Curved-Link 
@@ -42,8 +41,8 @@ Multi Point-of-Contact Tensegrity Robots](https://ieeexplore.ieee.org/abstract/d
 
 <div class='paper-box'><div 
 class='paper-box-image'><div><div 
-class="badge">IEEE ICRA 2025</div><img src='../images/ICRA 2025 Microspines Graphical Abstract.png' alt="sym" 
-width="70%"></div></div>
+class="badge"> </div><img src='../images/ICRA 2025 Microspines Graphical Abstract.png' alt="sym" 
+width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Improving Grip Stability Using Passive Compliant Microspine Arrays for Soft Robots in Unstructured Terrain](https://ieeexplore.ieee.org/document/11128855) 
@@ -58,7 +57,7 @@ width="70%"></div></div>
 
 <div class='paper-box'><div 
 class='paper-box-image'><div><div 
-class="badge">Sensors</div><img src='../images/semantic_graphical_abstract.jpg' alt="sym" width="100%"></div></div>
+class="badge"> </div><img src='../images/semantic_graphical_abstract.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Evaluation of Semantic Segmentation Performance for a Multimodal Roadside Vehicle Detection System on the Edge](https://www.mdpi.com/1424-8220/25/2/370) 
@@ -74,7 +73,7 @@ href="https://doi.org/10.25452/figshare.plus.19311938.v1">Dataset</a></span><br>
 
 <div class='paper-box'><div 
 class='paper-box-image'><div><div 
-class="badge">IJIRA</div><img src='../images/rellis_graphical.jpg' alt="sym" 
+class="badge"> </div><img src='../images/rellis_graphical.jpg' alt="sym" 
 width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -91,7 +90,7 @@ Robotics and Applications</b>*, 8, 1085–1101 (2024), doi: 10.1007/s41315-024-0
 
 <div class='paper-box'><div 
 class='paper-box-image'><div><div 
-class="badge">Data in Brief</div><img src='../images/dataset_graphical.jpg' alt="sym" 
+class="badge"> </div><img src='../images/dataset_graphical.jpg' alt="sym" 
 width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
