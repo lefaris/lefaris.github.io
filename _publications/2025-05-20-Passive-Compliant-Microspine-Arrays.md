@@ -9,6 +9,6 @@ venue: '2025 IEEE International Conference on Robotics and Automation (ICRA)'
 #slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://academicpages.github.io/files/Improving_Grip_Stability_Using_Passive_Compliant_Microspine_Arrays_for_Soft_Robots_in_Unstructured_Terrain.pdf'
 bibtexurl: 'https://academicpages.github.io/files/2025-05-20-Passive-Compliant-Microspine-Arrays.bib'
-citation: 'L. Ervin, H. Bezawada and V. Vikas, "Improving Grip Stability Using Passive Compliant Microspine Arrays for Soft Robots in Unstructured Terrain," 2025 IEEE International Conference on Robotics and Automation (ICRA), Atlanta, GA, USA, 2025, pp. 7872-7878, doi: 10.1109/ICRA55743.2025.11128855.'
+citation: '**L. Ervin<sup>✉</sup>**, H. Bezawada and V. Vikas, "Improving Grip Stability Using Passive Compliant Microspine Arrays for Soft Robots in Unstructured Terrain," 2025 IEEE International Conference on Robotics and Automation (ICRA), Atlanta, GA, USA, 2025, pp. 7872-7878, doi: 10.1109/ICRA55743.2025.11128855.'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+![Microspines graphical abstract](https://lefaris.github.io/images/ICRA 2025 Microspines Graphical Abstract.png)

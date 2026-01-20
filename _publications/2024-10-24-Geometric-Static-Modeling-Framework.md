@@ -9,6 +9,6 @@ venue: 'IEEE Robotics and Automation Letters (RA-L)'
 #slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://academicpages.github.io/files/Geometric_Static_Modeling_Framework_for_Piecewise-Continuous_Curved-Link_Multi_Point-of-Contact_Tensegrity_Robots.pdf'
 bibtexurl: 'https://academicpages.github.io/files/GeometricStaticModelingFramework.bib'
-citation: 'L. Ervin and V. Vikas, "Geometric Static Modeling Framework for Piecewise-Continuous Curved-Link Multi Point-of-Contact Tensegrity Robots," in IEEE Robotics and Automation Letters, vol. 9, no. 12, pp. 11066-11073, Dec. 2024, doi: 10.1109/LRA.2024.3486199.'
+citation: '**L. Ervin<sup>✉</sup>** and V. Vikas, "Geometric Static Modeling Framework for Piecewise-Continuous Curved-Link Multi Point-of-Contact Tensegrity Robots," in IEEE Robotics and Automation Letters, vol. 9, no. 12, pp. 11066-11073, Dec. 2024, doi: 10.1109/LRA.2024.3486199.'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+![TeXploR graphical abstract](https://lefaris.github.io/images/TeXploR_ICRA_graphical_abstract.png)
