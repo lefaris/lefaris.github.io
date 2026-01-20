@@ -1,5 +1,5 @@
 ---
-title: "Mechatronic Design and Non-Commutative Behavior of a Cable-Driven Tensegrity Manipulator"
+title: "Mechatronic Design and Non-Commutative Behavior of a Cable-Driven Tensegrity Manipulator AND Improving Grip Stability Using Passive Compliant Microspine Arrays for Soft Robots in Unstructured Terrain"
 collection: talks
 category: posters
 permalink: /talks/2025-05-23-Tensegrity-Manipulator
