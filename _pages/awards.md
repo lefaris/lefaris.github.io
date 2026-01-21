@@ -6,6 +6,7 @@ permalink: /awards/
 ![IEEE ICRA 2025 Best Paper Award](../images/best_paper_award.png)
 
 ## NASA Alabama Space Grant Consortium (ASGC) Fellowship Renewal #2 - 2024-2025
+### The only graduate fellow awarded at the University of Alabama, and one of only nine fellows awarded in the state of Alabama
 ![NASA ASGC Fellowship Renewal #2 (2024-2025)](../images/NASA_ASGC_3.png)
 
 ## 2nd Place Best Poster Award at UA ECE Department Graduate Poster Competition - December 2024
@@ -17,6 +18,7 @@ permalink: /awards/
 ![NSF iREDEFINE](../images/ECEDHA_conference.png)
 
 ## NASA Alabama Space Grant Consortium (ASGC) Fellowship Renewal #1 - 2023-2024
+### One of two graduate fellows awarded at the University of Alabama, and one of only eleven fellows awarded in the state of Alabama
 ![NASA ASGC Fellowship Renewal #1 (2023-2024)](../images/NASA_ASGC_2.png)
 
 ## 1st Place Best Poster Award at UA ECE Department Graduate Poster Competition - December 2023
@@ -25,6 +27,7 @@ permalink: /awards/
 ![NSF BPart](../images/bpart.jpg)
 
 ## NASA Alabama Space Grant Consortium (ASGC) Fellowship - 2022-2023
+### One of two graduate fellows awarded at the University of Alabama, and one of only twelve fellows awarded in the state of Alabama
 ![NASA ASGC Fellowship (2022-2023)](../images/NASA_ASGC_1.png)
 
 ## NSF Learning in Advance (LIA) Scholarship - 2018-2020
