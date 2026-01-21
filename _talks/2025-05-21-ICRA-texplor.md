@@ -9,7 +9,7 @@ location: "Atlanta, GA, USA"
 #slidesurl: 'https://lefaris.github.io/files/slides1.pdf'
 ---
 
-![IEEE ICRA 2025 TeXploR](../images/Microspines_talk.jpg "IEEE ICRA 2025 TeXploR")
+![IEEE ICRA 2025 TeXploR](../images/ICRA_texplor_poster.jpg "IEEE ICRA 2025 TeXploR")
 
 This is a description of your talk, which is a markdown file that can be all markdownified like any other post. Yay markdown!
 
