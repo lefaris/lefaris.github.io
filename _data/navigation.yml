@@ -23,11 +23,11 @@ main:
   - title: "Teaching"
     url: /teaching/
 
-  - title: "Resume"
-    url: /resume/
+#  - title: "Resume"
+#    url: /resume/
 
-  - title: "CV"
-    url: /cv/
+#  - title: "CV"
+#    url: /cv/
     
   # - title: "CV"
   #   url: /cv-json/
