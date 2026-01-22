@@ -16,9 +16,9 @@ location: "Atlanta, GA, USA"
 ![IEEE ICRA 2025 Microspines](../images/microspines_ICRA_poster.png "IEEE ICRA 2025 Microspines Poster")
 
 At the [IEEE ICRA 2025 Soft Robots for Space Applications workshop](https://softroboticsforspace.eu/), I had the joy 
-of presenting two posters based off paper submissions describing my research focused on mobile space robots.  I even 
-had the fortune of receiving the IEEE/RAS sponsored [Best Paper Award](https://softroboticsforspace.eu/best-paper-award) for 
-my paper:
+of presenting two posters based off paper submissions describing my research focused on mobile space robots.  I am 
+grateful for receiving the IEEE/RAS sponsored [Best Paper Award](https://softroboticsforspace.eu/best-paper-award) 
+for my paper:
 > Improving Grip Stability Using Passive Compliant Microspine Arrays for Soft Robots in Unstructured 
 Terrain
 
