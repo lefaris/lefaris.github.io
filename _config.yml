@@ -100,7 +100,7 @@ publication_category:
 talk_category:
   posters:
     title: 'Posters'
-  talks:
+  presentations: #Used to be 'talks'
     title: 'Talks'    
 
 # Site Settings
