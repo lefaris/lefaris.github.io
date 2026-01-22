@@ -97,11 +97,11 @@ publication_category:
     title: 'Blog Articles'
     
 # Talk Category - The following the list of talk categories and their headings
-talk_category:
-  posters:
-    title: 'Posters'
-  presentations: #Used to be 'talks'
-    title: 'Talks'    
+#talk_category:
+#  posters:
+#    title: 'Posters'
+#  presentations: #Used to be 'talks'
+#    title: 'Talks'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
