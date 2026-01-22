@@ -9,8 +9,9 @@ location: "Atlanta, GA, USA"
 ---
 
 ![IEEE ICRA 2025 Microspines](../images/Microspines_talk.jpg "IEEE ICRA 2025 Microspines")
-![ICRA Microspines Poster](../images/microspines_ICRA_poster.png "ICRA Microspines Poster")
 [Microspines talk slides link here](https://lefaris.github.io/files/microspines_ICRA_presentation_slides.pdf)
+
+![ICRA Microspines Poster](../images/microspines_ICRA_poster.png "ICRA Microspines Poster")
 
 I had the joy of presenting my [microspines paper](https://lefaris.github.io//publication/2025-05-20-Passive-Compliant-Microspine-Arrays) at ICRA 2025. 
 

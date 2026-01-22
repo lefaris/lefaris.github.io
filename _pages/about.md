@@ -104,3 +104,14 @@ Max Eastepp<sup>✉</sup>, **Lauren Faris**, Kenneth Ricks. *<b>Data in Brief</b
 <span> <a href="https://doi.org/10.25452/figshare.plus.19311938.v1">Dataset</a></span><br>
 </div>
 </div>
+
+# Media
+
+<img src='../images/ieeespectrum.gif' alt="sym" width="100%">
+
+My robot TeXploR was highlighted in [IEEE Spectrum's, "Coolest Robots at ICRA"](https://www.linkedin.com/posts/ieee-spectrum_icra-robot-robots-activity-7332741228989493248-e2no?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB8lJRAB54u-d-imU761NIPa1vdVMqCX2KU)
+
+<img src='../images/UA_magazine.png' alt="sym" width="50%"> <img src='../images/UA_magazine_2.png' alt="sym" 
+width="50%">
+
+ARL highlighted in the [UA Capstone Engineer 2024 Magazine](https://news.eng.ua.edu/capstone-engineer/)

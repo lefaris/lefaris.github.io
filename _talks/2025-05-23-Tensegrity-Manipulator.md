@@ -9,13 +9,11 @@ location: "Atlanta, GA, USA"
 ---
 
 ![IEEE ICRA 2025 Workshop Posters](../images/ICRA_workshop_posters.jpg "IEEE ICRA 2025 Workshop Posters")
-
+[Manipulator poster link here](https://lefaris.github.io/files/REACH_ICRA_poster.pdf), [Microspines poster link here](https://lefaris.github.io/files/microspines_ICRA_poster.pdf)
 
 ![IEEE ICRA 2025 Manipulator](../images/REACH_ICRA_poster.png "IEEE ICRA 2025 Manipulator Poster")
-[Manipulator poster link here](https://lefaris.github.io/files/REACH_ICRA_poster.pdf)
 
 ![IEEE ICRA 2025 Microspines](../images/microspines_ICRA_poster.png "IEEE ICRA 2025 Microspines Poster")
-[Microspines poster link here](https://lefaris.github.io/files/microspines_ICRA_poster.pdf)
 
 At the [IEEE ICRA 2025 Soft Robots for Space Applications workshop](https://softroboticsforspace.eu/), I had the joy 
 of presenting two posters based off paper submissions describing my research focused on mobile space robots.  I even 
