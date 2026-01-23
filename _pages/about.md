@@ -116,9 +116,7 @@ Max Eastepp<sup>✉</sup>, **Lauren Faris**, Kenneth Ricks. *<b>Data in Brief</b
 </div>
 </div>
 
-# 
-# 
-# 
+
 # Media
 
 <img src='../images/ieeespectrum.gif' alt="sym" width="50%">
