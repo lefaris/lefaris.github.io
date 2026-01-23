@@ -33,14 +33,14 @@ Multi Point-of-Contact Tensegrity Robots](https://ieeexplore.ieee.org/abstract/d
 **Lauren Ervin<sup>✉</sup>**,Vishesh Vikas. *<b>IEEE Robotics and Automation Letters</b>*, vol. 9, no. 12, pp. 
 11066-11073, Dec. 2024, doi: 10.1109/LRA.2024.3486199.<br>
 <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-<span><a href="https://ieeexplore.ieee.org/abstract/document/10734217">IEEE RA-L</a></span><br>
+<span><a href="https://ieeexplore.ieee.org/abstract/document/10734217">IEEE RA-L</a></span>
 <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
 <span> <a href="https://github.com/lefaris/TeXploR-geometric">Code</a></span><br>
 </div>
 </div>
 
 
-<img style="float: left;" src='../images/TeXploR_ICRA_graphical_abstract.png' width="50%">
+<img style="float: left;" src='../images/TeXploR_ICRA_graphical_abstract.png' width="70%">
 
 [Geometric Static Modeling Framework for Piecewise-Continuous Curved-Link 
 Multi Point-of-Contact Tensegrity Robots](https://ieeexplore.ieee.org/abstract/document/10734217) 
