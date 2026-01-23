@@ -40,18 +40,6 @@ Multi Point-of-Contact Tensegrity Robots](https://ieeexplore.ieee.org/abstract/d
 </div>
 
 
-<img style="float: left;" src='../images/TeXploR_ICRA_graphical_abstract.png' width="70%">
-
-[Geometric Static Modeling Framework for Piecewise-Continuous Curved-Link 
-Multi Point-of-Contact Tensegrity Robots](https://ieeexplore.ieee.org/abstract/document/10734217) 
-**Lauren Ervin<sup>✉</sup>**,Vishesh Vikas. *<b>IEEE Robotics and Automation Letters</b>*, vol. 9, no. 12, pp. 
-11066-11073, Dec. 2024, doi: 10.1109/LRA.2024.3486199.<br>
-<img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-<span><a href="https://ieeexplore.ieee.org/abstract/document/10734217">IEEE RA-L</a></span><br>
-<img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
-<span> <a href="https://github.com/lefaris/TeXploR-geometric">Code</a></span><br>
-
-
 <div class='paper-box'><div 
 class='paper-box-image'><div><div 
 class="badge"> </div><img src='../images/ICRA 2025 Microspines Graphical Abstract.png' alt="sym" 
@@ -61,7 +49,7 @@ width="100%"></div></div>
 [Improving Grip Stability Using Passive Compliant Microspine Arrays for Soft Robots in Unstructured Terrain](https://ieeexplore.ieee.org/document/11128855) 
 **Lauren Ervin<sup>✉</sup>**, Harish Bezawada, Vishesh Vikas. *<b>2025 IEEE International Conference on Robotics and Automation (ICRA), Atlanta, GA, USA, 2025</b>*, pp. 7872-7878, doi: 10.1109/ICRA55743.2025.11128855.<br>
 <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-<span><a href="https://ieeexplore.ieee.org/document/11128855">IEEE ICRA 2025</a></span><br>
+<span><a href="https://ieeexplore.ieee.org/document/11128855">IEEE ICRA 2025</a></span>
 <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
 <span> <a href="https://github.com/lefaris/microspines">Code</a></span><br>
 </div>
@@ -76,7 +64,7 @@ class="badge"> </div><img src='../images/semantic_graphical_abstract.jpg' alt="s
 [Evaluation of Semantic Segmentation Performance for a Multimodal Roadside Vehicle Detection System on the Edge](https://www.mdpi.com/1424-8220/25/2/370) 
 **Lauren Ervin<sup>✉</sup>**, Max Eastepp, Mason McVicker, Kenneth Ricks. *<b>Sensors</b>*, 2025, 25, 370, doi: 10.3390/s25020370.<br>
 <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-<span><a href="https://www.mdpi.com/1424-8220/25/2/370">Sensors</a></span><br>
+<span><a href="https://www.mdpi.com/1424-8220/25/2/370">Sensors</a></span>
 <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
 <span> <a href="https://github.com/UA-Roadside-Semantic-Segmentation/Multimodal-Roadside-Detection">Code</a>, <a 
 href="https://doi.org/10.25452/figshare.plus.19311938.v1">Dataset</a></span><br>
@@ -94,7 +82,7 @@ width="100%"></div></div>
 Mason McVicker<sup>✉</sup>, **Lauren Ervin**, Yongzhi Yang, Kenneth Ricks. *<b>International Journal of Intelligent 
 Robotics and Applications</b>*, 8, 1085–1101 (2024), doi: 10.1007/s41315-024-00376-5.<br>
 <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-<span><a href="https://link.springer.com/article/10.1007/s41315-024-00376-5">IJIRA</a></span><br>
+<span><a href="https://link.springer.com/article/10.1007/s41315-024-00376-5">IJIRA</a></span>
 <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
 <span> <a href="https://github.com/UA-Lidar-Segmentation-Research">Code</a></span><br>
 </div>
@@ -110,7 +98,7 @@ width="100%"></div></div>
 [UA_L-DoTT: University of Alabama’s large dataset of trains and trucks](https://www.sciencedirect.com/science/article/pii/S2352340922002840) 
 Max Eastepp<sup>✉</sup>, **Lauren Faris**, Kenneth Ricks. *<b>Data in Brief</b>*, 2022, 42, 108073, doi: 10.1016/j.dib.2022.108073.<br>
 <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-<span><a href="https://www.sciencedirect.com/science/article/pii/S2352340922002840">Data in Brief</a></span><br>
+<span><a href="https://www.sciencedirect.com/science/article/pii/S2352340922002840">Data in Brief</a></span>
 <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
 <span> <a href="https://doi.org/10.25452/figshare.plus.19311938.v1">Dataset</a></span><br>
 </div>
