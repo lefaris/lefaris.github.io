@@ -7,8 +7,8 @@ excerpt: 'Existing lidar-based semantic segmentation algorithms and datasets foc
 date: 2024-12-24
 venue: 'International Journal of Intelligent Robotics and Applications'
 #slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/Comparison of lidar semantic segmentation performance on the structured SemanticKITTI and off‑road RELLIS‑3D datasets.pdf'
-bibtexurl: 'https://academicpages.github.io/files/RELLIS-3DPerformance.bib'
+paperurl: 'https://lefaris.github.io/files/Comparison of lidar semantic segmentation performance on the structured SemanticKITTI and off‑road RELLIS‑3D datasets.pdf'
+bibtexurl: 'https://lefaris.github.io/files/RELLIS-3DPerformance.bib'
 citation: 'McVicker, M.<sup>✉</sup>, **Ervin, L.**, Yang, Y. et al. Comparison of lidar semantic segmentation performance on the structured SemanticKITTI and off-road RELLIS-3D datasets. Int J Intell Robot Appl 8, 1085–1101 (2024). https://doi.org/10.1007/s41315-024-00376-5.'
 ---
 ![RELLIS-3D graphical abstract](https://lefaris.github.io/images/rellis_graphical.jpg)

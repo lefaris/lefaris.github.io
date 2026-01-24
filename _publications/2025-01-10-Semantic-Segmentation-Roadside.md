@@ -7,8 +7,8 @@ excerpt: 'Discretely monitoring traffic systems and tracking payloads on vehicle
 date: 2025-01-10
 venue: 'Sensors'
 #slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/Semantic-Segmentation-Roadside.pdf'
-bibtexurl: 'https://academicpages.github.io/files/Semantic-Segmentation-Roadside.bib'
+paperurl: 'https://lefaris.github.io/files/Semantic-Segmentation-Roadside.pdf'
+bibtexurl: 'https://lefaris.github.io/files/Semantic-Segmentation-Roadside.bib'
 citation: '**Ervin, L.<sup>✉</sup>**; Eastepp, M.; McVicker, M.; Ricks, K. Evaluation of Semantic Segmentation Performance for a Multimodal Roadside Vehicle Detection System on the Edge. Sensors 2025, 25, 370. https://doi.org/10.3390/s25020370.'
 ---
 ![Semantic Segmentation graphical abstract](https://lefaris.github.io/images/semantic_graphical_abstract.jpg)
