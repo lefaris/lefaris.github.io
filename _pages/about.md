@@ -7,12 +7,24 @@ redirect_from:
   - /about.html
 ---
 
-I'm currently a Visiting Assistant Professor in the Electrical and Computer Engineering Department at Florida 
-International University in Miami, Florida.  Since [joining the department](https://ece.fiu.edu/people/faculty/profiles/lauren-ervin/index1.html) in August 2025, I have been knee-deep in research, proposal 
-writing, crafting new robotics and computer vision undergraduate/graduate courses, and mentoring students.  My 
-current research interests lie at the intersection of robotics and deep learning; recent projects I'm excited about include dynamic modeling of a tensegrity continuum manipulator (with a data-driven DL approach coming soon), and RL for small biped robot tasks such as climbing and multi-agent lifting.  Ask me about how fun proposal writing is!
+I'm a roboticist who builds autonomous systems that work reliably in the real world. My research sits at the 
+intersection of robotics, deep learning, and hardware integration; from designing tensegrity robots that navigate 
+unstructured terrain, to deploying computer vision models on edge devices for autonomous tracking. I'm particularly interested in understanding how we make increasingly capable autonomous systems safe, interpretable, and robust when they interact with the physical world.
 
-Before FIU, I received my Ph.D. from the Electrical and Computer Engineering Department at the University of Alabama in August 2025.  I worked in the [Agile Robotics Lab](https://sites.ua.edu/arl/) where I focused on modeling/simulating/testing tensegrity robots (mobile + manipulator), and the [Embedded and Robotic Systems Lab](https://ece.eng.ua.edu/laboratories/ersyl-embedded-and-robotic-systems-laboratory/) where I co-developed an open-source, multimodal dataset targeting vehicles and performed semantic segmentation tasks on the edge.  I am grateful for receiving several awards during my Ph.D., including the Best Paper Award at the IEEE ICRA 2025 Soft Robotics for Space Applications Workshop (2025), ECOB Electrical Engineering Graduate Student of the Year (2024), and three rounds of the NASA ASGC Fellowship (2022, 2023, and 2024), among others.  Before that, I received my Bachelor's in Electrical Engineering with a Computer Option and Math Minor and Master's in Electrical Engineering both from UA in May 2020 and 2025, respectively.
+I'm currently a Visiting Assistant Professor in the Electrical and Computer Engineering Department at Florida 
+International University in Miami, Florida.  Since [joining the department](https://ece.fiu.edu/people/faculty/profiles/lauren-ervin/index1.html) in August 2025, I have been designing new robotics and 
+computer vision courses, mentoring students, and leading research on embodied AI systems.  Recent 
+projects I'm excited about include dynamic modeling of a tensegrity continuum manipulator with data-driven 
+approaches, and reinforcement learning for challenging multi-agent tasks like cooperative lifting with miniature 
+biped robots.
+
+Before FIU, I completed my Ph.D. from the Electrical and Computer Engineering Department at the University of 
+Alabama in August 2025.  During my time there, I worked across two labs: the [Agile Robotics Lab](https://sites.ua.edu/arl/), building and modeling tensegrity robots with non-intuitive behaviors, and the [Embedded and Robotic 
+Systems Lab](https://ece.eng.ua.edu/laboratories/ersyl-embedded-and-robotic-systems-laboratory/), developing 
+semantic segmentation pipelines for autonomous tracking on the edge and co-developing an open-source, multimodal 
+dataset targeting vehicles.  My work has been recognized with awards including the Best 
+Paper Award at the IEEE ICRA 2025 Soft Robotics for Space Applications Workshop, ECOB Electrical Engineering 
+Graduate Student of the Year (2024), and three rounds of the NASA ASGC Fellowship (2022, 2023, and 2024).  I also held a TS/SCI clearance during my time as a co-op at the National Security Agency (2017-2019), where I worked on robotics and hardware design projects.
 
 Feel free to reach out at Laurenefervin@gmail.com if you'd like to chat!  I'm also happy to share my resume/CV.
 
