@@ -24,7 +24,9 @@ Systems Lab](https://ece.eng.ua.edu/laboratories/ersyl-embedded-and-robotic-syst
 semantic segmentation pipelines for autonomous tracking on the edge and co-developing an open-source, multimodal 
 dataset targeting vehicles.  My work has been recognized with awards including the Best 
 Paper Award at the IEEE ICRA 2025 Soft Robotics for Space Applications Workshop, ECOB Electrical Engineering 
-Graduate Student of the Year (2024), and three rounds of the NASA ASGC Fellowship (2022, 2023, and 2024).  I also held a TS/SCI clearance during my time as a co-op at the National Security Agency (2017-2019), where I worked on robotics and hardware design projects.
+Graduate Student of the Year (2024), and three rounds of the NASA ASGC Fellowship (2022, 2023, and 2024).  I also 
+held a TS/SCI clearance during my time as a co-op at the Department of Defense (2017-2019), where I worked on robotics 
+and hardware design projects.
 
 Feel free to reach out at Laurenefervin@gmail.com if you'd like to chat!  I'm also happy to share my resume/CV.
 
