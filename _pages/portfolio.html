@@ -214,29 +214,28 @@ A collection of robotics projects spanning tensegrity systems, computer vision, 
     </div>
   </div>
 
-  <!-- TeXploR Project -->
-  <div class="project-card" data-category="robotics current">
+  <!-- Tensegrity Manipulator -->
+  <div class="project-card" data-category="robotics current ml">
     <div class="project-media">
-      <span class="project-label">Featured</span>
-      <img src="../images/texplor_geometric/rolling.gif" alt="TeXploR Robot">
+      <span class="project-label">In Progress</span>
+      <img src="../images/manipulator/manipulator4x.gif" alt="Tensegrity Manipulator">
     </div>
     <div class="project-info">
-      <h3 class="project-title">TeXploR - Tensegrity Robot Geometric Modeling</h3>
-      <p class="project-venue">IEEE ICRA 2025 | IEEE RA-L 2024</p>
+      <h3 class="project-title">Tensegrity Continuum Manipulator</h3>
+      <p class="project-venue">Current Research</p>
       <p class="project-desc">
-        Designed and built a novel curved-link tensegrity robot with non-intuitive locomotion. 
-        Developed geometric modeling framework and implemented dynamic mass-shifting behaviors.
+        System integration of tensegrity manipulator with motor-tendon actuators, in-line load cells,
+        and Vicon motion capture. Developing dynamic modeling using a modified RNEA algorithm with a data-driven
+        approach coming soon.
       </p>
       <div class="tech-stack">
-        <span class="tech-item">MATLAB</span>
-        <span class="tech-item">MuJoCo</span>
         <span class="tech-item">Vicon</span>
-        <span class="tech-item">Arduino</span>
-        <span class="tech-item">3D Printing</span>
+        <span class="tech-item">Load Cells</span>
+        <span class="tech-item">MATLAB</span>
+        <span class="tech-item">Deep Learning</span>
       </div>
       <div class="project-links">
-        <a href="https://ieeexplore.ieee.org/abstract/document/10734217" class="project-link">Paper →</a>
-        <a href="https://github.com/lefaris/TeXploR-geometric" class="project-link">Code →</a>
+        <a href="#" class="project-link">Research →</a>
       </div>
     </div>
   </div>
@@ -267,6 +266,110 @@ A collection of robotics projects spanning tensegrity systems, computer vision, 
     </div>
   </div>
 
+  <!-- TeXploR Project -->
+  <div class="project-card" data-category="robotics">
+    <div class="project-media">
+      <span class="project-label">Simulation</span>
+      <img src="../images/texplor_geometric/rolling.gif" alt="TeXploR Robot">
+    </div>
+    <div class="project-info">
+      <h3 class="project-title">TeXploR - Tensegrity Robot Geometric Modeling</h3>
+      <p class="project-venue">IEEE ICRA 2025 | IEEE RA-L 2024</p>
+      <p class="project-desc">
+        Designed and built a novel curved-link tensegrity robot with non-intuitive locomotion.
+        Developed geometric modeling framework and implemented dynamic mass-shifting behaviors.
+      </p>
+      <div class="tech-stack">
+        <span class="tech-item">MATLAB</span>
+        <span class="tech-item">MuJoCo</span>
+        <span class="tech-item">Vicon</span>
+        <span class="tech-item">Arduino</span>
+        <span class="tech-item">3D Printing</span>
+      </div>
+      <div class="project-links">
+        <a href="https://ieeexplore.ieee.org/abstract/document/10734217" class="project-link">Paper →</a>
+        <a href="https://github.com/lefaris/TeXploR-geometric" class="project-link">Code →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom Gazebo Worlds -->
+  <div class="project-card" data-category="robotics">
+    <div class="project-media">
+      <span class="project-label">Simulation</span>
+      <img src="../images/cam_lidar_projection/serc2048_odometry.gif" alt="Jackal Simulation">
+    </div>
+    <div class="project-info">
+      <h3 class="project-title">Custom Gazebo Worlds for Jackal Navigation Simulation</h3>
+      <p class="project-venue">Clearpath Jackal</p>
+      <p class="project-desc">
+        Generated custom Gazebo worlds both inside labs and real-world outside environments.  Simulated Clearpath
+          Jackal robot in Gazebo and performed various navigation algorithms.
+      </p>
+      <div class="tech-stack">
+        <span class="tech-item">ROS</span>
+        <span class="tech-item">Gazebo</span>
+        <span class="tech-item">Simulation</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/lefaris/camera_lidar_projection" class="project-link">Code →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Semantic Segmentation -->
+  <div class="project-card" data-category="cv ml">
+    <div class="project-media">
+      <span class="project-label">Edge Computing</span>
+      <img src="../images/semantic_segmentation/32mr_truck.jpg" alt="Semantic Segmentation">
+    </div>
+    <div class="project-info">
+      <h3 class="project-title">Edge-Deployed Semantic Segmentation with CNNs and Multimodal Data</h3>
+      <p class="project-venue">Sensors 2025</p>
+      <p class="project-desc">
+        Performance evaluation and optimization of semantic segmentation CNNs on Nvidia Jetson edge
+        devices for real-time vehicle detection. Multimodal sensor fusion approach combining camera and LiDAR data.
+      </p>
+      <div class="tech-stack">
+        <span class="tech-item">TensorFlow</span>
+        <span class="tech-item">Jetson</span>
+        <span class="tech-item">OpenCV</span>
+        <span class="tech-item">LiDAR</span>
+      </div>
+      <div class="project-links">
+        <a href="https://www.mdpi.com/1424-8220/25/2/370" class="project-link">Paper →</a>
+        <a href="https://github.com/UA-Roadside-Semantic-Segmentation/Multimodal-Roadside-Detection" class="project-link">Code →</a>
+        <a href="https://doi.org/10.25452/figshare.plus.19311938.v1" class="project-link">Dataset →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Multimodal Dataset -->
+  <div class="project-card" data-category="cv">
+    <div class="project-media">
+      <span class="project-label">Dataset</span>
+      <img src="../images/dataset/dataset.jpg" alt="UA L-DoTT Dataset">
+    </div>
+    <div class="project-info">
+      <h3 class="project-title">Custom Multimodal Dataset Generation: UA L-DoTT Dataset</h3>
+      <p class="project-venue">Data in Brief 2022</p>
+      <p class="project-desc">
+        Co-developed open-source multimodal dataset with 350,000+ point clouds and 95,000+ images
+        targeting vehicles. Multi-site collection with synchronized camera and LiDAR data.
+      </p>
+      <div class="tech-stack">
+        <span class="tech-item">ROS</span>
+        <span class="tech-item">LiDAR</span>
+        <span class="tech-item">Data Collection</span>
+        <span class="tech-item">Python</span>
+      </div>
+      <div class="project-links">
+        <a href="https://www.sciencedirect.com/science/article/pii/S2352340922002840" class="project-link">Paper →</a>
+        <a href="https://doi.org/10.25452/figshare.plus.19311938.v1" class="project-link">Dataset →</a>
+      </div>
+    </div>
+  </div>
+
   <!-- SoRo Fab Project -->
   <div class="project-card" data-category="robotics">
     <div class="project-media">
@@ -288,34 +391,7 @@ A collection of robotics projects spanning tensegrity systems, computer vision, 
         <span class="tech-item">3D Printing</span>
       </div>
       <div class="project-links">
-        <a href="" class="project-link">Paper →</a>
         <a href="https://github.com/lefaris/SoRo-fab" class="project-link">Code →</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Tensegrity Manipulator -->
-  <div class="project-card" data-category="robotics current ml">
-    <div class="project-media">
-      <span class="project-label">In Progress</span>
-      <img src="../images/manipulator/manipulator4x.gif" alt="Tensegrity Manipulator">
-    </div>
-    <div class="project-info">
-      <h3 class="project-title">Tensegrity Continuum Manipulator</h3>
-      <p class="project-venue">Current Research</p>
-      <p class="project-desc">
-        System integration of tensegrity manipulator with motor-tendon actuators, in-line load cells, 
-        and Vicon motion capture. Developing dynamic modeling using a modified RNEA algorithm with a data-driven
-        approach coming soon.
-      </p>
-      <div class="tech-stack">
-        <span class="tech-item">Vicon</span>
-        <span class="tech-item">Load Cells</span>
-        <span class="tech-item">MATLAB</span>
-        <span class="tech-item">Deep Learning</span>
-      </div>
-      <div class="project-links">
-        <a href="#" class="project-link">Research →</a>
       </div>
     </div>
   </div>
@@ -345,59 +421,6 @@ A collection of robotics projects spanning tensegrity systems, computer vision, 
     </div>
   </div>
   -->
-
-  <!-- Semantic Segmentation -->
-  <div class="project-card" data-category="cv ml">
-    <div class="project-media">
-      <span class="project-label">Edge Computing</span>
-      <img src="../images/semantic_segmentation/32mr_truck.jpg" alt="Semantic Segmentation">
-    </div>
-    <div class="project-info">
-      <h3 class="project-title">Edge-Deployed Semantic Segmentation with CNNs and Multimodal Data</h3>
-      <p class="project-venue">Sensors 2025</p>
-      <p class="project-desc">
-        Performance evaluation and optimization of semantic segmentation CNNs on Nvidia Jetson edge 
-        devices for real-time vehicle detection. Multimodal sensor fusion approach combining camera and LiDAR data.
-      </p>
-      <div class="tech-stack">
-        <span class="tech-item">TensorFlow</span>
-        <span class="tech-item">Jetson</span>
-        <span class="tech-item">OpenCV</span>
-        <span class="tech-item">LiDAR</span>
-      </div>
-      <div class="project-links">
-        <a href="https://www.mdpi.com/1424-8220/25/2/370" class="project-link">Paper →</a>
-        <a href="https://github.com/UA-Roadside-Semantic-Segmentation/Multimodal-Roadside-Detection" class="project-link">Code →</a>
-        <a href="https://doi.org/10.25452/figshare.plus.19311938.v1" class="project-link">Dataset →</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Multimodal Dataset -->
-  <div class="project-card" data-category="cv">
-    <div class="project-media">
-      <span class="project-label">Dataset</span>
-      <img src="../images/dataset/dataset.jpg" alt="UA L-DoTT Dataset">
-    </div>
-    <div class="project-info">
-      <h3 class="project-title">Custom Multimodal Dataset Generation: UA L-DoTT Dataset</h3>
-      <p class="project-venue">Data in Brief 2022</p>
-      <p class="project-desc">
-        Co-developed open-source multimodal dataset with 350,000+ point clouds and 95,000+ images 
-        targeting vehicles. Multi-site collection with synchronized camera and LiDAR data.
-      </p>
-      <div class="tech-stack">
-        <span class="tech-item">ROS</span>
-        <span class="tech-item">LiDAR</span>
-        <span class="tech-item">Data Collection</span>
-        <span class="tech-item">Python</span>
-      </div>
-      <div class="project-links">
-        <a href="https://www.sciencedirect.com/science/article/pii/S2352340922002840" class="project-link">Paper →</a>
-        <a href="https://doi.org/10.25452/figshare.plus.19311938.v1" class="project-link">Dataset →</a>
-      </div>
-    </div>
-  </div>
 
   <!-- Tensegrity Snake -->
   <div class="project-card" data-category="robotics cv current">

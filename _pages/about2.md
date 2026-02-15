@@ -313,6 +313,26 @@ Feel free to reach out at Laurenefervin@gmail.com if you'd like to chat!  I'm al
         </div>
       </div>
     </div>
+
+    <div class="project-highlight">
+      <div class="project-image">
+        <span class="project-badge">Simulation</span>
+        <img src="../images/cam_lidar_projection/serc2048_odometry.gif" alt="Jackal Gazebo Odometry">
+      </div>
+      <div class="project-content">
+        <h3>Jackal Gazebo Odometry</h3>
+        <p class="project-meta">Clearpath Jackal</p>
+        <p class="project-description">
+          Generated custom Gazebo worlds both inside labs and real-world outside environments.  Simulated Clearpath 
+          Jackal robot in Gazebo and performed various navigation algorithms.
+        </p>
+        <div class="project-tags">
+          <span class="project-tag">ROS</span>
+          <span class="project-tag">Gazebo</span>
+          <span class="project-tag">Simulation</span>
+        </div>
+      </div>
+    </div>
     
   </div>
   
@@ -479,22 +499,3 @@ and hardware design projects.
 </div>
 
 <a href="/publications/" class="view-all-link">View All Publications →</a>
-<!--
-## Media
-
-<img src='images/ieeespectrum.gif' alt="sym" width="50%">
-
-My robot TeXploR was highlighted in [IEEE Spectrum's, "Coolest Robots at ICRA"](https://www.linkedin.com/posts/ieee-spectrum_icra-robot-robots-activity-7332741228989493248-e2no?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB8lJRAB54u-d-imU761NIPa1vdVMqCX2KU)
-
-<img src='images/UA_magazine.png' width="50%">
-
-ARL highlighted in the [UA Capstone Engineer 2024 Magazine](https://news.eng.ua.edu/capstone-engineer/)
-
-## Contact
-
-**Email:** [laurenefervin@gmail.com](mailto:laurenefervin@gmail.com)  
-**GitHub:** [github.com/lefaris](https://github.com/lefaris)  
-**LinkedIn:** [Lauren Ervin](https://www.linkedin.com/in/lauren-elizabeth-ervin)
-
-*Resume/CV available upon request*
--->
