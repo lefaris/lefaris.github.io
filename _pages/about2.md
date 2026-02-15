@@ -245,8 +245,6 @@ projects I'm excited about include dynamic modeling of a tensegrity continuum ma
 approaches, and reinforcement learning for challenging multi-agent tasks like cooperative lifting with miniature 
 biped robots.
 
-Feel free to reach out at Laurenefervin@gmail.com if you'd like to chat!  I'm also happy to share my resume/CV.
-
 ## Featured Projects
 
 <div class="featured-projects">
