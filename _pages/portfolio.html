@@ -1,14 +1,530 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Projects"
 permalink: /portfolio/
 author_profile: true
 ---
 
+<style>
+/* Project Showcase - Integrated with AcademicPages */
+.project-filters {
+  display: flex;
+  gap: 0.8em;
+  margin-bottom: 2em;
+  flex-wrap: wrap;
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.filter-btn {
+  padding: 0.5em 1.2em;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.85em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.filter-btn:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.filter-btn.active {
+  background: #5271ff;
+  color: white;
+  border-color: #5271ff;
+}
+
+/* Projects Grid */
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  border-color: rgba(82, 113, 255, 0.5);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.project-media {
+  width: 100%;
+  height: 220px;
+  background: rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.project-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.project-card:hover .project-media img {
+  transform: scale(1.08);
+}
+
+.project-label {
+  position: absolute;
+  top: 0.8em;
+  right: 0.8em;
+  background: #5271ff;
+  color: white;
+  padding: 0.3em 0.8em;
+  border-radius: 0.8em;
+  font-size: 0.7em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  z-index: 2;
+}
+
+.project-label.award {
+  background: #ffd700;
+  color: #000;
+}
+
+.project-info {
+  padding: 1.5em;
+}
+
+.project-title {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 0.4em;
+}
+
+.project-venue {
+  color: #5271ff;
+  font-size: 0.8em;
+  margin-bottom: 0.8em;
+  font-family: Monaco, Consolas, monospace;
+  font-weight: 500;
+}
+
+.project-desc {
+  font-size: 0.9em;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.65);
+  margin-bottom: 1em;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  margin-bottom: 1em;
+}
+
+.tech-item {
+  padding: 0.3em 0.7em;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0.7em;
+  font-size: 0.75em;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Monaco, Consolas, monospace;
+}
+
+.project-links {
+  display: flex;
+  gap: 0.8em;
+  flex-wrap: wrap;
+}
+
+.project-link {
+  font-size: 0.85em;
+  color: #5271ff;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+  font-family: Monaco, Consolas, monospace;
+  font-weight: 500;
+}
+
+.project-link:hover {
+  border-color: #5271ff;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
 {% include base_path %}
 
+<p style="font-size: 1.1em; margin-bottom: 2em; line-height: 1.6;">
+A collection of robotics projects spanning tensegrity systems, computer vision, machine learning, and hardware integration. From novel mechanism design to edge-deployed AI systems.
+</p>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<!-- Filter Buttons -->
+<div class="project-filters">
+  <button class="filter-btn active" data-filter="all">All Projects</button>
+  <button class="filter-btn" data-filter="robotics">Robotics Hardware</button>
+  <button class="filter-btn" data-filter="cv">Computer Vision</button>
+  <button class="filter-btn" data-filter="ml">Machine Learning</button>
+  <button class="filter-btn" data-filter="current">Current Work</button>
+</div>
 
+<!-- Projects Grid -->
+<div class="projects-container">
+
+    <!-- TeXploR2 Project -->
+  <div class="project-card" data-category="robotics current">
+    <div class="project-media">
+      <span class="project-label">Featured</span>
+      <img src="../images/texplor_quasi/TeXploR2ImpactSideView.gif" alt="TeXploR2 Robot">
+    </div>
+    <div class="project-info">
+      <h3 class="project-title">TeXploR2 - Tensegrity Robot System Design and Quasistatic Modeling</h3>
+      <p class="project-venue">IEEE ICRA 2026</p>
+      <p class="project-desc">
+        System design of an improved curved-link tensegrity robot with non-intuitive locomotion.
+        Expanded upon geometric modeling framework to include quasistatic simulations.
+      </p>
+      <div class="tech-stack">
+        <span class="tech-item">MATLAB</span>
+        <span class="tech-item">Vicon</span>
+        <span class="tech-item">Raspberry Pi</span>
+        <span class="tech-item">3D Printing</span>
+      </div>
+      <div class="project-links">
+        <a href="https://ieeexplore.ieee.org/abstract/document/10734217" class="project-link">Paper →</a>
+        <a href="https://github.com/lefaris/TeXploR-quasi" class="project-link">Code →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- TeXploR Project -->
+  <div class="project-card" data-category="robotics current">
+    <div class="project-media">
+      <span class="project-label">Featured</span>
+      <img src="../images/texplor_geometric/rolling.gif" alt="TeXploR Robot">
+    </div>
+    <div class="project-info">
+      <h3 class="project-title">TeXploR - Tensegrity Robot Geometric Modeling</h3>
+      <p class="project-venue">IEEE ICRA 2025 | IEEE RA-L 2024</p>
+      <p class="project-desc">
+        Designed and built a novel curved-link tensegrity robot with non-intuitive locomotion. 
+        Developed geometric modeling framework and implemented dynamic mass-shifting behaviors.
+      </p>
+      <div class="tech-stack">
+        <span class="tech-item">MATLAB</span>
+        <span class="tech-item">MuJoCo</span>
+        <span class="tech-item">Vicon</span>
+        <span class="tech-item">Arduino</span>
+        <span class="tech-item">3D Printing</span>
+      </div>
+      <div class="project-links">
+        <a href="https://ieeexplore.ieee.org/abstract/document/10734217" class="project-link">Paper →</a>
+        <a href="https://github.com/lefaris/TeXploR-geometric" class="project-link">Code →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Microspines Project -->
+  <div class="project-card" data-category="robotics">
+    <div class="project-media">
+      <span class="project-label award">Best Paper</span>
+      <img src="../images/microspines/microspines.gif" alt="Microspines">
+    </div>
+    <div class="project-info">
+      <h3 class="project-title">Compliant Microspines</h3>
+      <p class="project-venue">IEEE ICRA 2025 | Patent Pending</p>
+      <p class="project-desc">
+        Designed novel compliant mechanism microspine arrays that improve grip stability for soft robots 
+        on unstructured terrain. Won Best Paper Award at ICRA 2025 Space Robotics Workshop.
+      </p>
+      <div class="tech-stack">
+        <span class="tech-item">Fusion</span>
+        <span class="tech-item">OpenCV</span>
+        <span class="tech-item">Python</span>
+        <span class="tech-item">3D Printing</span>
+      </div>
+      <div class="project-links">
+        <a href="https://ieeexplore.ieee.org/document/11128855" class="project-link">Paper →</a>
+        <a href="https://github.com/lefaris/microspines" class="project-link">Code →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- SoRo Fab Project -->
+  <div class="project-card" data-category="robotics">
+    <div class="project-media">
+      <span class="project-label">In Progress</span>
+      <img src="../images/soro_fab/SoRo_crop.gif" alt="SoRo Fab">
+    </div>
+    <div class="project-info">
+      <h3 class="project-title">SoRo Fabrication</h3>
+      <p class="project-venue">Current Research</p>
+      <p class="project-desc">
+        Designed novel compliant mechanism microspine arrays that improve grip stability for soft robots
+        on unstructured terrain. Won Best Paper Award at ICRA 2025 Space Robotics Workshop.
+      </p>
+      <div class="tech-stack">
+        <span class="tech-item">Fusion</span>
+        <span class="tech-item">OpenCV</span>
+        <span class="tech-item">Python</span>
+        <span class="tech-item">Arduino</span>
+        <span class="tech-item">3D Printing</span>
+      </div>
+      <div class="project-links">
+        <a href="" class="project-link">Paper →</a>
+        <a href="https://github.com/lefaris/SoRo-fab" class="project-link">Code →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tensegrity Manipulator -->
+  <div class="project-card" data-category="robotics current ml">
+    <div class="project-media">
+      <span class="project-label">In Progress</span>
+      <img src="../images/manipulator/manipulator4x.gif" alt="Tensegrity Manipulator">
+    </div>
+    <div class="project-info">
+      <h3 class="project-title">Tensegrity Continuum Manipulator</h3>
+      <p class="project-venue">Current Research</p>
+      <p class="project-desc">
+        System integration of tensegrity manipulator with motor-tendon actuators, in-line load cells, 
+        and Vicon motion capture. Developing dynamic modeling using a modified RNEA algorithm with a data-driven
+        approach coming soon.
+      </p>
+      <div class="tech-stack">
+        <span class="tech-item">Vicon</span>
+        <span class="tech-item">Load Cells</span>
+        <span class="tech-item">MATLAB</span>
+        <span class="tech-item">Deep Learning</span>
+      </div>
+      <div class="project-links">
+        <a href="#" class="project-link">Research →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Multi-Agent RL
+  <div class="project-card" data-category="ml current">
+    <div class="project-media">
+      <span class="project-label">In Progress</span>
+      <img src="{{ base_path }}/images/semantic_graphical_abstract.jpg" alt="Multi-Agent RL">
+    </div>
+    <div class="project-info">
+      <h3 class="project-title">Multi-Agent Cooperative Lifting</h3>
+      <p class="project-venue">Reinforcement Learning Research</p>
+      <p class="project-desc">
+        Implementing deep RL algorithms for coordinated behaviors with miniature biped robots.
+        Tackling challenging tasks including jumping dynamics and cooperative object manipulation.
+      </p>
+      <div class="tech-stack">
+        <span class="tech-item">PyTorch</span>
+        <span class="tech-item">Isaac Gym</span>
+        <span class="tech-item">RL</span>
+        <span class="tech-item">Python</span>
+      </div>
+      <div class="project-links">
+        <a href="#" class="project-link">Grant Pending →</a>
+      </div>
+    </div>
+  </div>
+  -->
+
+  <!-- Semantic Segmentation -->
+  <div class="project-card" data-category="cv ml">
+    <div class="project-media">
+      <span class="project-label">Edge Computing</span>
+      <img src="../images/semantic_segmentation/32mr_truck.jpg" alt="Semantic Segmentation">
+    </div>
+    <div class="project-info">
+      <h3 class="project-title">Edge-Deployed Semantic Segmentation with CNNs and Multimodal Data</h3>
+      <p class="project-venue">Sensors 2025</p>
+      <p class="project-desc">
+        Performance evaluation and optimization of semantic segmentation CNNs on Nvidia Jetson edge 
+        devices for real-time vehicle detection. Multimodal sensor fusion approach combining camera and LiDAR data.
+      </p>
+      <div class="tech-stack">
+        <span class="tech-item">TensorFlow</span>
+        <span class="tech-item">Jetson</span>
+        <span class="tech-item">OpenCV</span>
+        <span class="tech-item">LiDAR</span>
+      </div>
+      <div class="project-links">
+        <a href="https://www.mdpi.com/1424-8220/25/2/370" class="project-link">Paper →</a>
+        <a href="https://github.com/UA-Roadside-Semantic-Segmentation/Multimodal-Roadside-Detection" class="project-link">Code →</a>
+        <a href="https://doi.org/10.25452/figshare.plus.19311938.v1" class="project-link">Dataset →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Multimodal Dataset -->
+  <div class="project-card" data-category="cv">
+    <div class="project-media">
+      <span class="project-label">Dataset</span>
+      <img src="../images/dataset/dataset.jpg" alt="UA L-DoTT Dataset">
+    </div>
+    <div class="project-info">
+      <h3 class="project-title">Custom Multimodal Dataset Generation: UA L-DoTT Dataset</h3>
+      <p class="project-venue">Data in Brief 2022</p>
+      <p class="project-desc">
+        Co-developed open-source multimodal dataset with 350,000+ point clouds and 95,000+ images 
+        targeting vehicles. Multi-site collection with synchronized camera and LiDAR data.
+      </p>
+      <div class="tech-stack">
+        <span class="tech-item">ROS</span>
+        <span class="tech-item">LiDAR</span>
+        <span class="tech-item">Data Collection</span>
+        <span class="tech-item">Python</span>
+      </div>
+      <div class="project-links">
+        <a href="https://www.sciencedirect.com/science/article/pii/S2352340922002840" class="project-link">Paper →</a>
+        <a href="https://doi.org/10.25452/figshare.plus.19311938.v1" class="project-link">Dataset →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tensegrity Snake -->
+  <div class="project-card" data-category="robotics cv current">
+    <div class="project-media">
+      <span class="project-label">In Progress</span>
+      <img src="../images/tensegrity_snake/C.gif" alt="Tensegrity Snake">
+    </div>
+    <div class="project-info">
+      <h3 class="project-title">Gait Analysis of Tensegrity Snake Robot</h3>
+      <p class="project-venue">Current Research</p>
+      <p class="project-desc">
+        Mentoring a PhD student on the design and systems integration of a bioinspired tensegrity snake robot.
+        Generated different locomotion gaits and analyzed motion capture data.
+      </p>
+      <div class="tech-stack">
+        <span class="tech-item">Python</span>
+        <span class="tech-item">Arduino</span>
+        <span class="tech-item">Vicon</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/lefaris/TensegritySnake" class="project-link">Code →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mechatronics Lab -->
+  <div class="project-card" data-category="cv">
+    <div class="project-media">
+      <span class="project-label">Lab</span>
+      <img src="../images/mechatronics_lab/object_tracking.gif" alt="Object Tracking">
+    </div>
+    <div class="project-info">
+      <h3 class="project-title">Created Lab: Object Tracking with OpenCV on Raspberry Pi</h3>
+      <p class="project-venue">ME 456/556: Mechatronics Fall 2024</p>
+      <p class="project-desc">
+        Graduate instructor for ME 456/556: Mechatronics.  Designed a lab on object tracking with OpenCV using the
+        Raspberry Pi camera module.  Put together the electronics kits required for the lab.
+      </p>
+      <div class="tech-stack">
+        <span class="tech-item">Raspberry Pi</span>
+        <span class="tech-item">Python</span>
+        <span class="tech-item">OpenCV</span>
+        <span class="tech-item">Fusion</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/lefaris/object_tracking" class="project-link">Code →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Digital Logic Lab -->
+  <div class="project-card" data-category="cv">
+    <div class="project-media">
+      <span class="project-label">Lab</span>
+      <img src="../images/digital_logic_lab/counter.gif" alt="4-Bit Counter">
+    </div>
+    <div class="project-info">
+      <h3 class="project-title">Taught Lab: 4-Bit Asynchronous Counter</h3>
+      <p class="project-venue">ECE 380: Digital Logic Spring 2021</p>
+      <p class="project-desc">
+        Graduate TA for ECE 380: Digital Logic.  Created solutions, taught, debugged, and graded all labs, including
+        this cool one on designing a 4-bit asynchronous counter with a 555 timer and D flip-flops.
+      </p>
+      <div class="tech-stack">
+        <span class="tech-item">Electronics</span>
+        <span class="tech-item">VHDL</span>
+        <span class="tech-item">Quartus Prime</span>
+      </div>
+     <!-- <div class="project-links">
+        <a href="../files/Final%20Report.pdf" class="project-link">Code →</a>
+      </div> -->
+    </div>
+  </div>
+
+  <!-- Senior Design Robot -->
+  <div class="project-card" data-category="robotics cv">
+    <div class="project-media">
+      <span class="project-label">Senior Design</span>
+      <img src="../images/roll_pi/roll_pi.gif" alt="Senior Design Robots">
+    </div>
+    <div class="project-info">
+      <h3 class="project-title">Roll Pi Team</h3>
+      <p class="project-venue">IEEE SoutheastCon Hardware Competition 2020</p>
+      <p class="project-desc">
+        Team lead, designed, built, and programmed 2 robots for the IEEE SoutheastCon Hardware Competition 2020 as
+        part of the Senior Design project in undergrad with two other team members.
+      </p>
+      <div class="tech-stack">
+        <span class="tech-item">Arduino</span>
+        <span class="tech-item">Python</span>
+        <span class="tech-item">OpenCV</span>
+        <span class="tech-item">Fusion</span>
+      </div>
+      <div class="project-links">
+        <a href="../files/Final%20Report.pdf" class="project-link">Report →</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// Filter functionality
+const filterBtns = document.querySelectorAll('.filter-btn');
+const projectCards = document.querySelectorAll('.project-card');
+
+filterBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    // Update active button
+    filterBtns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    const filter = btn.dataset.filter;
+
+    // Filter projects
+    projectCards.forEach(card => {
+      if (filter === 'all') {
+        card.style.display = 'block';
+      } else {
+        const categories = card.dataset.category.split(' ');
+        if (categories.includes(filter)) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      }
+    });
+  });
+});
+</script>

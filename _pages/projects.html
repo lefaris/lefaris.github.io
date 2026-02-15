@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lauren Ervin - Projects Showcase</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0a0a0a;
+            --secondary: #1a1a1a;
+            --accent: #2a2a2a;
+            --highlight: #5271ff;
+            --text: #ffffff;
+            --text-dim: #999999;
+            --card-bg: rgba(255, 255, 255, 0.05);
+            --border: rgba(255, 255, 255, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Barlow', sans-serif;
+            background: #0a0a0a;
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            margin-bottom: 80px;
+            animation: fadeInDown 0.8s ease-out;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            color: var(--text-dim);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Filter Tabs */
+        .filter-tabs {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-bottom: 50px;
+            flex-wrap: wrap;
+            animation: fadeIn 1s ease-out 0.2s both;
+        }
+
+        .filter-btn {
+            padding: 12px 30px;
+            background: var(--card-bg);
+            border: 2px solid var(--border);
+            color: var(--text);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+
+        .filter-btn:hover {
+            background: var(--accent);
+            border-color: var(--highlight);
+            transform: translateY(-2px);
+        }
+
+        .filter-btn.active {
+            background: var(--highlight);
+            border-color: var(--highlight);
+            box-shadow: 0 0 20px rgba(233, 69, 96, 0.4);
+        }
+
+        /* Project Grid */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 40px;
+            margin-bottom: 80px;
+        }
+
+        .project-card {
+            background: var(--card-bg);
+            border: 2px solid var(--border);
+            border-radius: 16px;
+            overflow: hidden;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            animation: fadeInUp 0.6s ease-out both;
+            position: relative;
+        }
+
+        .project-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--highlight);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 30px rgba(233, 69, 96, 0.2);
+        }
+
+        .project-media {
+            width: 100%;
+            height: 280px;
+            background: var(--accent);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .project-media img,
+        .project-media video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+        }
+
+        .project-card:hover .project-media img,
+        .project-card:hover .project-media video {
+            transform: scale(1.1);
+        }
+
+        .project-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: var(--highlight);
+            color: white;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            font-family: 'JetBrains Mono', monospace;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            z-index: 2;
+        }
+
+        .project-content {
+            padding: 30px;
+        }
+
+        .project-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: var(--text);
+        }
+
+        .project-subtitle {
+            color: var(--highlight);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .project-description {
+            color: var(--text-dim);
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+
+        .tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+
+        .tech-tag {
+            padding: 6px 14px;
+            background: var(--accent);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--text);
+        }
+
+        .project-links {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .project-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 10px 20px;
+            background: transparent;
+            border: 2px solid var(--highlight);
+            color: var(--highlight);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .project-link:hover {
+            background: var(--highlight);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        /* Skills Section */
+        .skills-section {
+            margin-top: 80px;
+            animation: fadeIn 1s ease-out 0.4s both;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 50px;
+            color: var(--text);
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .skill-category {
+            background: var(--card-bg);
+            border: 2px solid var(--border);
+            border-radius: 16px;
+            padding: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .skill-category:hover {
+            border-color: var(--highlight);
+            transform: translateY(-4px);
+        }
+
+        .skill-category h3 {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            color: var(--highlight);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .skill-icon {
+            width: 30px;
+            height: 30px;
+            background: var(--highlight);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+        }
+
+        .skill-bubbles {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-bubble {
+            padding: 10px 18px;
+            background: var(--accent);
+            border: 1px solid var(--border);
+            border-radius: 25px;
+            font-size: 0.9rem;
+            color: var(--text);
+            transition: all 0.3s ease;
+            cursor: default;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .skill-bubble:hover {
+            background: var(--highlight);
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(233, 69, 96, 0.3);
+        }
+
+        /* Timeline View for Featured Projects */
+        .timeline {
+            position: relative;
+            padding: 40px 0;
+            margin-top: 60px;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background: rgba(82, 113, 255, 0.3);
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 60px;
+            animation: fadeIn 0.8s ease-out both;
+        }
+
+        .timeline-item:nth-child(odd) .timeline-content {
+            margin-left: auto;
+            margin-right: 50%;
+            padding-right: 60px;
+        }
+
+        .timeline-item:nth-child(even) .timeline-content {
+            margin-right: auto;
+            margin-left: 50%;
+            padding-left: 60px;
+        }
+
+        .timeline-marker {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20px;
+            height: 20px;
+            background: var(--highlight);
+            border: 4px solid var(--primary);
+            border-radius: 50%;
+            z-index: 2;
+            top: 50%;
+            margin-top: -10px;
+        }
+
+        .timeline-content {
+            background: var(--card-bg);
+            border: 2px solid var(--border);
+            border-radius: 16px;
+            padding: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .timeline-content:hover {
+            border-color: var(--highlight);
+            transform: scale(1.02);
+        }
+
+        .timeline-year {
+            color: var(--highlight);
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 700;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Stagger animation delays */
+        .project-card:nth-child(1) { animation-delay: 0.1s; }
+        .project-card:nth-child(2) { animation-delay: 0.2s; }
+        .project-card:nth-child(3) { animation-delay: 0.3s; }
+        .project-card:nth-child(4) { animation-delay: 0.4s; }
+        .project-card:nth-child(5) { animation-delay: 0.5s; }
+        .project-card:nth-child(6) { animation-delay: 0.6s; }
+
+        .timeline-item:nth-child(1) { animation-delay: 0.2s; }
+        .timeline-item:nth-child(2) { animation-delay: 0.4s; }
+        .timeline-item:nth-child(3) { animation-delay: 0.6s; }
+        .timeline-item:nth-child(4) { animation-delay: 0.8s; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .timeline::before {
+                left: 30px;
+            }
+
+            .timeline-item:nth-child(odd) .timeline-content,
+            .timeline-item:nth-child(even) .timeline-content {
+                margin-left: 60px;
+                margin-right: 0;
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            .timeline-marker {
+                left: 30px;
+            }
+        }
+
+        /* Publication Cards (Alternative to paper boxes) */
+        .publication-showcase {
+            margin-top: 80px;
+        }
+
+        .pub-card {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 30px;
+            background: var(--card-bg);
+            border: 2px solid var(--border);
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+            animation: fadeInUp 0.6s ease-out both;
+        }
+
+        .pub-card:hover {
+            border-color: var(--highlight);
+            transform: translateX(10px);
+        }
+
+        .pub-image {
+            width: 100%;
+            height: 200px;
+            border-radius: 12px;
+            overflow: hidden;
+            background: var(--accent);
+        }
+
+        .pub-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .pub-details h3 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: var(--text);
+        }
+
+        .pub-venue {
+            color: var(--highlight);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .pub-award {
+            display: inline-block;
+            background: #ffd700;
+            color: #0a0a0a;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .pub-card {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="hero">
+            <h1>Robotics Projects</h1>
+            <p>Building autonomous systems that work in the real world—from tensegrity robots to edge-deployed computer vision</p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="robotics">Robotics Hardware</button>
+            <button class="filter-btn" data-filter="cv">Computer Vision</button>
+            <button class="filter-btn" data-filter="ml">Machine Learning</button>
+            <button class="filter-btn" data-filter="current">Current Work</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+            <!-- TeXploR Project -->
+            <div class="project-card" data-category="robotics current">
+                <div class="project-media">
+                    <span class="project-badge">Featured</span>
+                    <!-- Replace with actual GIF/video -->
+                    <img src="path/to/texplor.gif" alt="TeXploR Robot">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">TeXploR - Tensegrity Robot</h3>
+                    <p class="project-subtitle">IEEE ICRA 2026 | IEEE RA-L 2024</p>
+                    <p class="project-description">
+                        Designed and built a novel curved-link tensegrity robot with non-intuitive locomotion. 
+                        Developed geometric modeling framework and implemented dynamic mass-shifting behaviors.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">MATLAB</span>
+                        <span class="tech-tag">MuJoCo</span>
+                        <span class="tech-tag">Vicon</span>
+                        <span class="tech-tag">Arduino</span>
+                        <span class="tech-tag">3D Printing</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <span>📄</span> Paper
+                        </a>
+                        <a href="https://github.com/lefaris/TeXploR-geometric" class="project-link">
+                            <span>💻</span> Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <span>🎥</span> Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Microspines Project -->
+            <div class="project-card" data-category="robotics">
+                <div class="project-media">
+                    <span class="project-badge">Best Paper</span>
+                    <img src="path/to/microspines.gif" alt="Microspines">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Compliant Microspines</h3>
+                    <p class="project-subtitle">IEEE ICRA 2025 | Patent Pending</p>
+                    <p class="project-description">
+                        Designed novel compliant mechanism microspine arrays that improve grip stability for soft robots 
+                        on unstructured terrain. Won Best Paper Award at ICRA 2025 Space Robotics Workshop.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">SolidWorks</span>
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">3D Printing</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://ieeexplore.ieee.org/document/11128855" class="project-link">
+                            <span>📄</span> Paper
+                        </a>
+                        <a href="https://github.com/lefaris/microspines" class="project-link">
+                            <span>💻</span> Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tensegrity Manipulator -->
+            <div class="project-card" data-category="robotics current ml">
+                <div class="project-media">
+                    <span class="project-badge">In Progress</span>
+                    <img src="path/to/manipulator.gif" alt="Tensegrity Manipulator">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Tensegrity Continuum Manipulator</h3>
+                    <p class="project-subtitle">Data-Driven Dynamic Modeling</p>
+                    <p class="project-description">
+                        System integration of tensegrity manipulator with motor-tendon actuators, in-line load cells, 
+                        and Vicon motion capture. Developing data-driven dynamic modeling using modified RNEA algorithm.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">ROS</span>
+                        <span class="tech-tag">Vicon</span>
+                        <span class="tech-tag">Load Cells</span>
+                        <span class="tech-tag">MATLAB</span>
+                        <span class="tech-tag">Deep Learning</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <span>🔬</span> Research
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Multi-Agent RL -->
+            <div class="project-card" data-category="ml current">
+                <div class="project-media">
+                    <span class="project-badge">In Progress</span>
+                    <img src="path/to/multiagent.gif" alt="Multi-Agent RL">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Multi-Agent Cooperative Lifting</h3>
+                    <p class="project-subtitle">Reinforcement Learning for Humanoid Robots</p>
+                    <p class="project-description">
+                        Implementing deep RL algorithms for coordinated behaviors with miniature biped robots. 
+                        Tackling challenging tasks including jumping dynamics and cooperative object manipulation.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">PyTorch</span>
+                        <span class="tech-tag">Isaac Gym</span>
+                        <span class="tech-tag">RL</span>
+                        <span class="tech-tag">Python</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <span>🤖</span> Pending Grant
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Semantic Segmentation -->
+            <div class="project-card" data-category="cv ml">
+                <div class="project-media">
+                    <img src="path/to/semantic_seg.gif" alt="Semantic Segmentation">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Edge-Deployed Semantic Segmentation</h3>
+                    <p class="project-subtitle">Sensors 2025</p>
+                    <p class="project-description">
+                        Evaluated semantic segmentation CNNs on Nvidia Jetson devices for real-time vehicle detection. 
+                        Optimized models for edge deployment with multimodal sensor fusion (camera + LiDAR).
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">Jetson</span>
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">LiDAR</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://www.mdpi.com/1424-8220/25/2/370" class="project-link">
+                            <span>📄</span> Paper
+                        </a>
+                        <a href="https://github.com/UA-Roadside-Semantic-Segmentation/Multimodal-Roadside-Detection" class="project-link">
+                            <span>💻</span> Code
+                        </a>
+                        <a href="https://doi.org/10.25452/figshare.plus.19311938.v1" class="project-link">
+                            <span>📊</span> Dataset
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Multimodal Dataset -->
+            <div class="project-card" data-category="cv">
+                <div class="project-media">
+                    <img src="path/to/dataset.gif" alt="UA L-DoTT Dataset">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">UA L-DoTT Dataset</h3>
+                    <p class="project-subtitle">Data in Brief 2022</p>
+                    <p class="project-description">
+                        Co-developed open-source multimodal dataset with 350,000+ point clouds and 95,000+ images 
+                        targeting vehicles. Multi-site collection with synchronized camera and LiDAR data.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">ROS</span>
+                        <span class="tech-tag">LiDAR</span>
+                        <span class="tech-tag">Data Collection</span>
+                        <span class="tech-tag">Python</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://www.sciencedirect.com/science/article/pii/S2352340922002840" class="project-link">
+                            <span>📄</span> Paper
+                        </a>
+                        <a href="https://doi.org/10.25452/figshare.plus.19311938.v1" class="project-link">
+                            <span>📊</span> Dataset
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NSA Kaya Robots -->
+            <div class="project-card" data-category="robotics">
+                <div class="project-media">
+                    <img src="path/to/kaya.gif" alt="Kaya Robots">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Kaya Robot Development</h3>
+                    <p class="project-subtitle">National Security Agency - 2019</p>
+                    <p class="project-description">
+                        Built and programmed 2 Kaya robots on Nvidia Isaac platform and 3 Jetbot robots. 
+                        Designed custom mounts for LiDAR/sonar integration and implemented SLAM with Google Cartographer.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Isaac SDK</span>
+                        <span class="tech-tag">ROS</span>
+                        <span class="tech-tag">SLAM</span>
+                        <span class="tech-tag">CAD</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <span>🔒</span> Classified
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jackal Navigation -->
+            <div class="project-card" data-category="robotics cv">
+                <div class="project-media">
+                    <img src="path/to/jackal.gif" alt="Jackal Robot">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Autonomous Navigation in GPS-Denied Areas</h3>
+                    <p class="project-subtitle">Clearpath Jackal Robot</p>
+                    <p class="project-description">
+                        Evaluated hybrid LiDAR/camera system with fused data approach. Implemented localization, 
+                        path planning, and obstacle detection in Gazebo simulation with RViz visualization.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">ROS</span>
+                        <span class="tech-tag">Gazebo</span>
+                        <span class="tech-tag">LiDAR</span>
+                        <span class="tech-tag">Navigation</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <span>💻</span> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="skills-section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><span class="skill-icon">💻</span> Programming</h3>
+                    <div class="skill-bubbles">
+                        <span class="skill-bubble">Python</span>
+                        <span class="skill-bubble">C++</span>
+                        <span class="skill-bubble">MATLAB</span>
+                        <span class="skill-bubble">JavaScript</span>
+                        <span class="skill-bubble">Bash</span>
+                        <span class="skill-bubble">ROS/ROS2</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><span class="skill-icon">🤖</span> Robotics</h3>
+                    <div class="skill-bubbles">
+                        <span class="skill-bubble">Arduino</span>
+                        <span class="skill-bubble">Raspberry Pi</span>
+                        <span class="skill-bubble">Vicon</span>
+                        <span class="skill-bubble">IMU/GPS</span>
+                        <span class="skill-bubble">LiDAR</span>
+                        <span class="skill-bubble">Load Cells</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><span class="skill-icon">🧠</span> ML/AI</h3>
+                    <div class="skill-bubbles">
+                        <span class="skill-bubble">PyTorch</span>
+                        <span class="skill-bubble">TensorFlow</span>
+                        <span class="skill-bubble">Keras</span>
+                        <span class="skill-bubble">OpenCV</span>
+                        <span class="skill-bubble">RL</span>
+                        <span class="skill-bubble">CNNs</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><span class="skill-icon">🔧</span> Simulation</h3>
+                    <div class="skill-bubbles">
+                        <span class="skill-bubble">MuJoCo</span>
+                        <span class="skill-bubble">Gazebo</span>
+                        <span class="skill-bubble">Isaac Sim</span>
+                        <span class="skill-bubble">Isaac Lab</span>
+                        <span class="skill-bubble">RViz</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><span class="skill-icon">⚙️</span> Hardware</h3>
+                    <div class="skill-bubbles">
+                        <span class="skill-bubble">PCB Design</span>
+                        <span class="skill-bubble">KiCAD</span>
+                        <span class="skill-bubble">3D Printing</span>
+                        <span class="skill-bubble">CNC Machining</span>
+                        <span class="skill-bubble">Soldering</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><span class="skill-icon">🛠️</span> Tools</h3>
+                    <div class="skill-bubbles">
+                        <span class="skill-bubble">Git</span>
+                        <span class="skill-bubble">Docker</span>
+                        <span class="skill-bubble">Linux</span>
+                        <span class="skill-bubble">SolidWorks</span>
+                        <span class="skill-bubble">Jetson</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Publication Showcase Section -->
+        <div class="publication-showcase">
+            <h2 class="section-title">Featured Publications</h2>
+            
+            <div class="pub-card">
+                <div class="pub-image">
+                    <img src="path/to/microspines_pub.png" alt="Microspines Publication">
+                </div>
+                <div class="pub-details">
+                    <span class="pub-award">🏆 Best Paper Award</span>
+                    <h3>Improving Grip Stability Using Passive Compliant Microspine Arrays</h3>
+                    <p class="pub-venue">IEEE ICRA 2025 | Patent Pending (USPTO 63/711,508)</p>
+                    <p class="project-description">
+                        Novel compliant mechanism design that significantly improves terrain traversability 
+                        for soft robots in unstructured environments.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://ieeexplore.ieee.org/document/11128855" class="project-link">
+                            <span>📄</span> IEEE
+                        </a>
+                        <a href="https://github.com/lefaris/microspines" class="project-link">
+                            <span>💻</span> Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pub-card">
+                <div class="pub-image">
+                    <img src="path/to/texplor_pub.png" alt="TeXploR Publication">
+                </div>
+                <div class="pub-details">
+                    <h3>Geometric Static Modeling Framework for Tensegrity Robots</h3>
+                    <p class="pub-venue">IEEE Robotics and Automation Letters (RA-L) 2024</p>
+                    <p class="project-description">
+                        Comprehensive modeling framework for piecewise-continuous curved-link tensegrity robots 
+                        with multi-point contact dynamics.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://ieeexplore.ieee.org/abstract/document/10734217" class="project-link">
+                            <span>📄</span> IEEE
+                        </a>
+                        <a href="https://github.com/lefaris/TeXploR-geometric" class="project-link">
+                            <span>💻</span> Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pub-card">
+                <div class="pub-image">
+                    <img src="path/to/semantic_pub.png" alt="Semantic Segmentation Publication">
+                </div>
+                <div class="pub-details">
+                    <h3>Semantic Segmentation for Multimodal Vehicle Detection on Edge</h3>
+                    <p class="pub-venue">Sensors 2025</p>
+                    <p class="project-description">
+                        Performance evaluation of semantic segmentation models deployed on Nvidia Jetson 
+                        for real-time autonomous tracking applications.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://www.mdpi.com/1424-8220/25/2/370" class="project-link">
+                            <span>📄</span> Open Access
+                        </a>
+                        <a href="https://github.com/UA-Roadside-Semantic-Segmentation/Multimodal-Roadside-Detection" class="project-link">
+                            <span>💻</span> Code
+                        </a>
+                        <a href="https://doi.org/10.25452/figshare.plus.19311938.v1" class="project-link">
+                            <span>📊</span> Dataset
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Filter functionality
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Update active button
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const filter = btn.dataset.filter;
+
+                // Filter projects
+                projectCards.forEach(card => {
+                    if (filter === 'all') {
+                        card.style.display = 'block';
+                    } else {
+                        const categories = card.dataset.category.split(' ');
+                        if (categories.includes(filter)) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
