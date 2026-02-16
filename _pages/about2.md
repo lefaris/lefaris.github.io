@@ -231,7 +231,7 @@ redirect_from:
 }
 </style>
 
-I'm a roboticist who builds autonomous systems that work reliably in the real world - from tensegrity robots that 
+I'm a roboticist who builds autonomous systems for the real world - from tensegrity robots that can 
 navigate unstructured terrain, to edge-deployed computer vision for autonomous tracking. My work sits at the 
 intersection of robotics, deep learning, and systems integration. I'm particularly interested in understanding how we 
 make increasingly capable autonomous systems safe, interpretable, and robust when they interact with the physical 
@@ -345,9 +345,9 @@ biped robots.
       <h3>Programming</h3>
       <div class="skill-bubbles">
         <span class="skill-bubble">Python</span>
-        <span class="skill-bubble">C++</span>
         <span class="skill-bubble">MATLAB</span>
         <span class="skill-bubble">ROS</span>
+        <span class="skill-bubble">C++</span>
       </div>
     </div>
   </div>
@@ -358,9 +358,9 @@ biped robots.
       <div class="skill-bubbles">
         <span class="skill-bubble">TensorFlow</span>
         <span class="skill-bubble">Keras</span>
-        <span class="skill-bubble">RL</span>
         <span class="skill-bubble">CNNs</span>
         <span class="skill-bubble">OpenCV</span>
+        <span class="skill-bubble">RL</span>
       </div>
     </div>
   </div>
@@ -405,11 +405,13 @@ biped robots.
 
   <div class="skills-grid">
     <div class="skill-category">
-      <h3>Hardware</h3>
+      <h3>Prototyping</h3>
       <div class="skill-bubbles">
-        <span class="skill-bubble">PCB Design</span>
-        <span class="skill-bubble">3D Print</span>
-        <span class="skill-bubble">Machining</span>
+        <span class="skill-bubble">PCB Design - KiCAD/EAGLE</span>
+        <span class="skill-bubble">Electronics - Soldering/OtherMill</span>
+        <span class="skill-bubble">3D Modeling - Fusion 360/SolidWorks</span>
+        <span class="skill-bubble">3D printing - Various FDM/SLA/Voxel8 printers</span>
+        <span class="skill-bubble">Fabrication - Injection Molding/Water Jetting/Laser Cutting</span>
       </div>
     </div>
   </div>
@@ -421,7 +423,6 @@ biped robots.
         <span class="skill-bubble">Git</span>
         <span class="skill-bubble">Docker</span>
         <span class="skill-bubble">Linux</span>
-        <span class="skill-bubble">KiCAD</span>
       </div>
     </div>
   </div>
