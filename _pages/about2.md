@@ -150,7 +150,7 @@ redirect_from:
 .project-description {
   font-size: 0.875em;
   line-height: 1.5;
-  color: rgba(255, 255, 255, 0.65);
+  //color: rgba(255, 255, 255, 0.65);
   margin-bottom: 0.9em;
 }
 
@@ -166,7 +166,7 @@ redirect_from:
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 0.6em;
   font-size: 0.7em;
-  color: rgba(255, 255, 255, 0.7);
+  //color: rgba(255, 255, 255, 0.7);
   font-family: Monaco, Consolas, monospace;
 }
 
