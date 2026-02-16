@@ -36,7 +36,7 @@ redirect_from:
   font-size: 0.75em;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: rgba(255, 255, 255, 0.5);
+  //color: rgba(255, 255, 255, 0.5);
   margin-bottom: 0.8em;
   font-weight: 600;
 }
