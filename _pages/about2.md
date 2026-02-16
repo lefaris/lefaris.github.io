@@ -398,7 +398,7 @@ biped robots.
         <span class="skill-bubble">IMU</span>
         <span class="skill-bubble">Vicon</span>
         <span class="skill-bubble">RTK GPS</span>
-        <span class="skill-bubble">Load cell</span>
+        <span class="skill-bubble">Load Cell</span>
       </div>
     </div>
   </div>
@@ -407,11 +407,13 @@ biped robots.
     <div class="skill-category">
       <h3>Prototyping</h3>
       <div class="skill-bubbles">
-        <span class="skill-bubble">PCB Design - KiCAD/EAGLE</span>
-        <span class="skill-bubble">Electronics - Soldering/OtherMill</span>
-        <span class="skill-bubble">3D Modeling - Fusion 360/SolidWorks</span>
-        <span class="skill-bubble">3D printing - Various FDM/SLA/Voxel8 printers</span>
-        <span class="skill-bubble">Fabrication - Injection Molding/Water Jetting/Laser Cutting</span>
+        <span class="skill-bubble">KiCAD</span>
+        <span class="skill-bubble">OtherMill</span>
+        <span class="skill-bubble">Soldering</span>
+        <span class="skill-bubble">Fusion 360/SolidWorks</span>
+        <span class="skill-bubble">FDM/SLA/Voxel8 Printers</span>
+        <span class="skill-bubble">Injection Molding/Casting</span>
+        <span class="skill-bubble">Water Jetting/Laser Cutting</span>
       </div>
     </div>
   </div>
