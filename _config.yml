@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "dark" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and
-  "contrast"
+  #"contrast"
 title                    : "Lauren Ervin, Ph.D."
 title_separator          : "-"
 name                     : &name "Lauren Ervin, Ph.D."
