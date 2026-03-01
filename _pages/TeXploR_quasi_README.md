@@ -1,10 +1,7 @@
 ---
-permalink: /
+permalink: /texplor2
 title: "TeXploR2"
 author_profile: true
-redirect_from: 
-  - /texplor2/
-  - /texplor2.html
 ---
 
 # TeXploR-quasi
