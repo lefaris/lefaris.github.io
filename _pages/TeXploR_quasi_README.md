@@ -171,9 +171,3 @@ If you use this work in your research, please cite both papers:
 
 - **January 2026:** Paper accepted to IEEE ICRA 2026
 - **September 2025:** Version 2 of [TeXploR robot design](https://github.com/lefaris/TeXploR-geometric) submitted to IEEE ICRA 2026
-
----
-
-## License
-
-This project is released for academic and research purposes.
