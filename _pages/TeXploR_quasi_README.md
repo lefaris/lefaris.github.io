@@ -1,5 +1,5 @@
 ---
-permalink: /texplor2
+permalink: /portfolio/texplor2
 title: "TeXploR2"
 author_profile: true
 ---
