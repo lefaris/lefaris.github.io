@@ -14,14 +14,16 @@ redirect_from:
   padding: 1.5em;
   background: rgba(255, 255, 255, 0.02);
   border-radius: 4px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid;
+  <!--border: 1px solid rgba(255, 255, 255, 0.1); -->
 }
 
 .skills-showcase h2 {
   font-size: 1.4em;
   margin-bottom: 1.2em;
   font-weight: 600;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid;
+  //border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding-bottom: 0.5em;
 }
 
@@ -49,8 +51,9 @@ redirect_from:
 
 .skill-bubble {
   padding: 0.35em 0.9em;
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  //background: rgba(255, 255, 255, 0.06);
+  //border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid;
   border-radius: 1em;
   font-size: 0.8em;
   transition: all 0.25s ease;
@@ -72,7 +75,8 @@ redirect_from:
   font-size: 1.563em;
   margin-bottom: 1em;
   font-weight: 600;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid;
+  //border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding-bottom: 0.5em;
 }
 
@@ -85,7 +89,8 @@ redirect_from:
 
 .project-highlight {
   background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  //border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid;
   border-radius: 4px;
   overflow: hidden;
   transition: all 0.3s ease;
@@ -162,8 +167,9 @@ redirect_from:
 
 .project-tag {
   padding: 0.25em 0.6em;
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  //background: rgba(255, 255, 255, 0.06);
+  //border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid;
   border-radius: 0.6em;
   font-size: 0.7em;
   //color: rgba(255, 255, 255, 0.7);
@@ -195,7 +201,7 @@ redirect_from:
 .highlight-box {
   margin: 2em 0;
   padding: 1.2em 1.5em;
-  background: rgba(82, 113, 255, 0.08);
+  //background: rgba(82, 113, 255, 0.08);
   border-left: 3px solid #5271ff;
   border-radius: 4px;
 }
