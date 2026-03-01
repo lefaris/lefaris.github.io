@@ -1,10 +1,9 @@
 ---
-permalink: /portfolio/texplor2
+permalink: /texplor2
 title: "TeXploR2"
 author_profile: true
 ---
 
-# TeXploR-quasi
 
 [![ICRA 2026](https://img.shields.io/badge/ICRA%202026-Accepted-success)](https://icra2026.org/)
 [![arXiv](https://img.shields.io/badge/arXiv-Coming%20Soon-b31b1b.svg)](https://arxiv.org)
