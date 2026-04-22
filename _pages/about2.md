@@ -238,18 +238,16 @@ redirect_from:
 </style>
 
 I'm a roboticist who builds autonomous systems for the real world - from tensegrity robots that can 
-navigate unstructured terrain, to edge-deployed computer vision for autonomous tracking. My work sits at the 
-intersection of robotics, deep learning, and systems integration. I'm particularly interested in understanding how we 
-make increasingly capable autonomous systems safe, interpretable, and robust when they interact with the physical 
-world. **I'm actively seeking industry R&D opportunities** where I can apply my expertise to build next-generation 
-robotic systems. 
+navigate unstructured terrain, to edge-deployed computer vision for autonomous capabilities. My work sits at the 
+intersection of robotics, systems integration, and deep learning. I'm particularly interested in understanding how we 
+make increasingly capable autonomous systems safe, repeatable, and robust when they interact with the physical 
+world.
 
 I'm currently a Visiting Assistant Professor in the Electrical and Computer Engineering Department at Florida 
 International University in Miami, Florida.  Since [joining the department](https://ece.fiu.edu/people/faculty/profiles/lauren-ervin/index1.html) in August 2025, I have been designing new robotics and 
 computer vision courses, mentoring students, and leading research on embodied AI systems.  Recent 
 projects I'm excited about include dynamic modeling of a tensegrity continuum manipulator with data-driven 
-approaches, and reinforcement learning for challenging multi-agent tasks like cooperative lifting with miniature 
-biped robots.
+approaches, and developing a handheld imaging device with an edge-deployed AI model for skin cancer screening.
 
 ## Featured Projects
 
